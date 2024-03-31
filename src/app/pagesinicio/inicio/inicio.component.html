@@ -1,0 +1,64 @@
+<!--header-->
+<mat-toolbar class="color">
+
+  <span>YHOSS.JH-DEV</span>
+  <span class="example-spacer"></span>
+  <button class="menu"> inicio</button>
+  <button class="menu"> cursos</button>
+  <button class="menu"> mis proyectos</button>
+  <button class="menu"(click)="inisiarsesion()"> iniciar sesion</button>
+</mat-toolbar>
+
+
+<!--body-->
+
+<div class="ejemplo">
+	<div  id="uno">
+		<div class="div1">
+      <img class="img" src="./../../../assets/img/yhoss.png" alt="">
+      <h2>yhoss.jh</h2>
+      <p>bievenido ami pagina web, disfruta del contenido que hice saludos...</p>
+
+      <p>si puedes soñarlo puedes hacerlo</p>
+      <button mat-fab color="warn" ><mat-icon>sms</mat-icon>  </button>
+      <button mat-fab color="primary" ><mat-icon>email</mat-icon>  </button>
+      <button mat-fab color="green" ><mat-icon>phone</mat-icon> </button>
+    </div>
+
+    <div class="div2">
+
+
+      <video class="video" controls width="600" height="240">
+        <source src="../../../assets/video/cancerbero.mp4" type="video/mp4">
+
+      </video>
+    </div>
+	</div>
+
+
+
+	<div class="contenedor">
+		<div class="width">Aspect ratio 2</div>
+
+
+		<div class="width">Aspect ratio 3</div>
+	  <div class="width ">Aspect ratio4</div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+<footer class="foter">
+  © {{year}} YHOSS.JH-DEV
+  Todos los Derechos Reservados
+</footer>
